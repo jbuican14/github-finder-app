@@ -1,7 +1,10 @@
 import React from 'react'
+import UserResults from '../components/users/UserResults'
 
 export default function Home() {
   return (
-    <div className='text-6xl'>Home</div>
+    <>
+      <UserResults />
+    </>
   )
 }
